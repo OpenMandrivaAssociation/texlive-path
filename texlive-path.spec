@@ -1,3 +1,9 @@
+# revision 22045
+# category Package
+# catalog-ctan /macros/generic/path
+# catalog-date 2011-04-07 22:08:26 +0200
+# catalog-license other-free
+# catalog-version 3.05
 Name:		texlive-path
 Version:	3.05
 Release:	1
@@ -41,6 +47,7 @@ default.
 %{_texmfdistdir}/tex/generic/path/path.sty
 %doc %{_texmfdistdir}/doc/generic/path/path-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/path/path-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ default.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
