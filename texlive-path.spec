@@ -6,7 +6,7 @@
 # catalog-version 3.05
 Name:		texlive-path
 Version:	3.05
-Release:	9
+Release:	10
 Summary:	Typeset paths, making them breakable
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/path
