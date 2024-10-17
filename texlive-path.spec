@@ -3,7 +3,7 @@ Version:	22045
 Release:	2
 Summary:	Typeset paths, making them breakable
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/generic/path
+URL:		https://www.ctan.org/tex-archive/macros/generic/path
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/path.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/path.doc.r%{version}.tar.xz
